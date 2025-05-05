@@ -6,10 +6,10 @@ import os
 from datetime import datetime
 
 # ------------------ CONFIGURATION ------------------
-API_TOKEN = 'YOUR_API_TOKEN'  # Replace with your football-data.org API token
+API_TOKEN = 'YOUR_API_TOKEN'  # football-data.org API token
 TEAM_ID = 57  # Arsenal FC
 COMPETITION_CODE = 'PL'  # Premier League
-SEASON_YEAR = 2023  # Adjust as needed
+SEASON_YEAR = 2024  # Adjust as needed
 OUTPUT_DIR = 'output'
 
 HEADERS = {'X-Auth-Token': API_TOKEN}
